@@ -77,7 +77,9 @@ DELETE FROM TEST_REPORT WHERE T_DATE < '2021-01-01';
 -- NOW ON safe_update_mode TO ENSURE THAT ANY DATA LOSS CANNOT HAPPEN BY MISTAKE:
 SET SQL_SAFE_UPDATES = 1;
 
+-- --------------------------------------------------------------------
 -- ----------------------TASK 3:---------------------------------------
+-- ---------------------------------------------------------------------
 USE lifeline_hospital;
 SELECT * FROM  patient; SELECT * FROM employee;SELECT * FROM doctor;
 SELECT * FROM nurse; SELECT * FROM rooms; SELECT * FROM test_report; SELECT * FROM bills;
