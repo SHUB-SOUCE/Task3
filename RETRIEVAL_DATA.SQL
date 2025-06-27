@@ -80,7 +80,7 @@ SET SQL_SAFE_UPDATES = 1;
 -- --------------------------------------------------------------------
 -- ----------------------TASK 3:---------------------------------------
 -- ---------------------------------------------------------------------
-USE lifeline_hospital;
+USE lifeline_hospital; -- COMMENT THIS LINE IF U R RUNNING IT WITH ABOVE CODE INTEGRATEDLY
 SELECT * FROM  patient; SELECT * FROM employee;SELECT * FROM doctor;
 SELECT * FROM nurse; SELECT * FROM rooms; SELECT * FROM test_report; SELECT * FROM bills;
 
